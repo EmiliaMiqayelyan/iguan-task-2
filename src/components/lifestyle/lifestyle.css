@@ -1,0 +1,59 @@
+.lifestyle {
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-color);
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lifestyle-info-1>p {
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    color: var(--main-color);
+}
+
+.lifestyle-info-2 {
+    width: 520px;
+}
+
+.lifestyle-info-2>p {
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    color: #141414;
+}
+
+
+.lifestyle-info-3 {
+    width: 590px;
+}
+
+.lifestyle-info-3>p {
+    font-size: 18px;
+    color: #555555;
+    font-family: 'Manrope', sans-serif;
+}
+
+.beauty-parts {
+    display: flex;
+    gap: 70px;
+}
+
+.beauty-part {
+    width: 140px;
+    height: 125px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.beauty-part>p {
+    width: 100%;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.lifestyle-img-2 {
+    position: absolute;
+    bottom: -1400px;
+}

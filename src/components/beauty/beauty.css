@@ -1,0 +1,52 @@
+.beauty {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spa-info {
+    width: 320px;
+}
+
+.spa-info>p {
+    font-size: 18px;
+    color: #555555;
+    font-family: 'Manrope', sans-serif;
+}
+
+.hair-info {
+    width: 370px;
+}
+
+.hair-info>p {
+    font-size: 18px;
+    color: #555555;
+    font-family: 'Manrope', sans-serif;
+}
+
+.body-info {
+    width: 335px;
+}
+
+.body-info>p {
+    font-size: 18px;
+    color: #555555;
+    font-family: 'Manrope', sans-serif;
+}
+
+.spa-title,
+.hair-title,
+.body-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+.beauty-btn {
+    border: 2px solid var(--main-color);
+    font-size: 12px;
+    font-family: 'Manrope', sans-serif;
+    padding: 12px;
+    color: #141414;
+    background-color: var(--white-color);
+}
