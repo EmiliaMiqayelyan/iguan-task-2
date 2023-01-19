@@ -7,6 +7,7 @@ import Lifestyle from './components/lifestyle/Lifestyle';
 import Services from './components/services/Service';
 import Customers from './components/custom/Customers';
 import Benefits from './components/benefit/Benefits';
+import Discount from './components/discount/Discount';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Services />
         <Customers />
         <Benefits />
+        <Discount />
     </div>
   );
 }

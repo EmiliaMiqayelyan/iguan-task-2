@@ -1,0 +1,54 @@
+.discount{
+    width: 100%;
+    height: auto;
+    padding: 90px;
+    background-color: var(--bg-color);
+}
+
+.part1,
+.part2{
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    padding: 10px;
+}
+
+.discount-title{
+    color: #5C8692;
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.discount-header{
+    color: #141414;
+    width: 390px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.text-div{
+    width: 465px;
+}
+
+.discount-left-part>span{
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    color: #555555;
+}
+
+.about-discount-left{
+    width: 270px;
+    background-color: white;
+    padding: 15px;
+}
+
+.about-discount{
+    padding-top: 30px;
+}
+
+.info>p,
+.info>span{
+    color: #141414;
+    font-size: 15px;
+    margin: 0;
+}
