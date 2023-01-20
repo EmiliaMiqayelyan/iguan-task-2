@@ -7,8 +7,8 @@ import hairimg from "./hair-img.svg";
 function Beauty() {
   return (
     <div className="beauty">
-      <div>
-        <img src={spaimg} alt="" />
+      <div className="">
+        <img className="beauty-img" src={spaimg} alt="" />
         <p className="spa-title">Spa & Massage</p>
         <div className="spa-info">
           <p>
@@ -18,8 +18,8 @@ function Beauty() {
         </div>
         <button className="beauty-btn">READ MORE</button>
       </div>
-      <div>
-        <img src={hairimg} alt="" />
+      <div className="">
+        <img className="beauty-img" src={hairimg} alt="" />
         <p className="hair-title">Hair & Beauty</p>
         <div className="hair-info">
           <p>
@@ -29,8 +29,8 @@ function Beauty() {
         </div>
         <button className="beauty-btn">READ MORE</button>
       </div>
-      <div>
-        <img src={bodyimg} alt="" />
+      <div className="">
+        <img className="beauty-img" src={bodyimg} alt="" />
         <p className="body-title">Body Treatments</p>
         <div className="body-info"> 
           <p>

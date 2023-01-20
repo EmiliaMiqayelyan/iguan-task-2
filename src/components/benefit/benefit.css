@@ -1,19 +1,19 @@
-.benefits{
+.benefits {
     padding: 90px;
 }
 
-.benefit-title{
+.benefit-title {
     text-align: center;
 }
 
-.part-1{
+.part-1 {
     width: 90px;
     height: 90px;
     border: 5px solid #5C8692;
     padding: 5px;
 }
 
-.part-2{
+.part-2 {
     width: 70px;
     height: 70px;
     background-color: #5C8692;
@@ -21,24 +21,36 @@
 }
 
 .benefit-part-1,
-.benefit-part-2{
+.benefit-part-2 {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
 }
 
-.parts{
+.parts {
     width: 340px;
 }
 
-.parts>p{
+.parts>p {
     padding-top: 10px;
     color: #141414;
     font-size: 26px;
     font-family: 'Playfair Display', serif;
 }
 
-.parts>span{
+.parts>span {
     font-size: 18px;
     color: #555555;
+}
+
+@media only screen and (max-width: 1023px) {
+    .benefits {
+        gap: 20px;
+        padding: 65px;
+    }
+
+    .benefit-part-1,
+    .benefit-part-2 {
+        gap: 20px;
+    }
 }

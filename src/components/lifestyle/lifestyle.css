@@ -54,6 +54,35 @@
 }
 
 .lifestyle-img-2 {
-    position: absolute;
-    bottom: -1400px;
+    margin-top: -655px;
+}
+
+.lifestyle-img-1>img,
+.lifestyle-img-2>img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+    .lifestyle {
+        padding: 65px;
+    }
+
+    /* .lifestyle-img-2 {
+        bottom: -1600px;
+        width: 100%;
+    }
+
+    .lifestyle-img-1>img {
+        width: 100%;
+    }
+
+    .lifestyle-img-2>img {
+        width: 33%;
+    } */
+
+    .lifestyle-img-2 {
+        margin-top: -348px;
+    }
+
+   
 }

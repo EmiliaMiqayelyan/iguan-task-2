@@ -21,10 +21,14 @@
     color: #141414;
 }
 
-.service-part-1,
-.service-part-2 {
+.service-part-1{
     display: flex;
     padding-top: 40px;
+    gap: 100px;
+}
+
+.service-part-2 {
+    display: flex;
     gap: 100px;
 }
 
@@ -36,13 +40,13 @@
 }
 
 .service-1 {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding-top: 60px;
 }
 
 .service-2 {
-    width: 100%;
+    width: 72%;
     height: auto;
     padding-top: 80px;
 } 
@@ -74,4 +78,31 @@ hr{
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     color: #141414;
+}
+
+.mask1-img,
+.mask2-img{
+    width: 100%;
+}
+
+.mask1-img>img,
+.mask2-img>img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .service{
+        padding: 65px;
+    }
+
+    .service-part-1,
+    .service-part-2{
+        gap: 62px;
+    }
+
+    .service-1>span,
+    .service-2>span{
+        display: none;
+    }
 }

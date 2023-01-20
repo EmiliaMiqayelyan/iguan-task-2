@@ -8,6 +8,8 @@ import Services from './components/services/Service';
 import Customers from './components/custom/Customers';
 import Benefits from './components/benefit/Benefits';
 import Discount from './components/discount/Discount';
+import Blog from './components/blog/Blog';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Customers />
         <Benefits />
         <Discount />
+        <Blog />
+        <Footer />
     </div>
   );
 }

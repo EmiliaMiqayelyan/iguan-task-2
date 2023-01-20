@@ -64,3 +64,17 @@
     background-color: var(--main-color);
     color: var(--white-color);
 }
+
+@media only screen and (max-width: 1023px) {
+    .navbar-right-part{
+        gap: 20px;
+    }
+
+    .navbar-left-part{
+        gap: 30px;
+    }
+
+    .pages-part{
+        gap: 15px;
+    }
+}

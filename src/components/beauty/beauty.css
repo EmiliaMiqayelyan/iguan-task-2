@@ -1,8 +1,10 @@
 .beauty {
-    padding: 100px;
+    padding: 90px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 
 .spa-info {
     width: 320px;
@@ -49,4 +51,26 @@
     padding: 12px;
     color: #141414;
     background-color: var(--white-color);
+}
+
+/* .beauty-img{
+    width: 100%;
+} */
+
+@media only screen and (max-width: 1023px) {
+    .beauty {
+        padding: 65px;
+        gap: 35px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .beauty-img {
+        width: 100%;
+    }
+
+    /* 
+    .beauty-part{
+        width: 100%;
+    } */
 }

@@ -14,7 +14,9 @@ function Services() {
         </div>
       </div>
       <div className="service-part-1">
+        <div className="mask1-img">
         <img src={maskimg} alt="" />
+        </div>
         <div className="service-1">
           <div className="menu">
             <span>Deep Tissue</span>
@@ -105,7 +107,9 @@ function Services() {
             <button className="service-2-btn">GET AN APPOINTMENT</button>
           </div>
         </div>
+        <div className="mask2-img">
         <img src={mask2img} alt="" />
+        </div>
       </div>
     </div>
   );

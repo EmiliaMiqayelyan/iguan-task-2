@@ -1,0 +1,91 @@
+.footer {
+    padding: 90px;
+    width: 100%;
+    height: auto;
+    background-color: #1E2C30;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sites {
+    display: flex;
+    gap: 15px;
+}
+
+.sites-div {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #5C8692;
+    text-align: center;
+}
+
+.footer>hr {
+    border-top: 2px solid #FFFFFF26;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore,
+.pages,
+.hours,
+.part {
+    display: flex;
+    flex-direction: column;
+}
+
+.explore>p,
+.pages>p,
+.hours>p,
+.part>p,
+.contact>p {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+.explore>span,
+.pages>span,
+.hours>span,
+.part>span,
+.contact>span,
+.contact-part>span {
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.contact-part {
+    display: flex;
+    gap: 30px;
+}
+
+.margin-div{
+    margin-left: 30px;
+}
+
+.margin-part{
+    margin-left: 13px;
+}
+
+.footer-bottom{
+    text-align: center;
+    height: 60px;
+    background-color: #111E22;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+    .footer{
+        padding: 65px;
+    }
+}
