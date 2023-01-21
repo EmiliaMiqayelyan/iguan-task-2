@@ -56,7 +56,7 @@ function Customers() {
               </div>
             </div>
 
-            <div>
+            <div className="custom-img">
               <svg
                 width="71"
                 height="56"
@@ -128,7 +128,7 @@ function Customers() {
                 <span>United Kingdom</span>
               </div>
             </div>
-            <div>
+            <div className="custom-img">
               <svg
                 width="71"
                 height="56"

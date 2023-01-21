@@ -5,15 +5,14 @@
     flex-wrap: wrap;
 }
 
-
 .spa-info {
     width: 320px;
 }
 
 .spa-info>p {
     font-size: 18px;
-    color: #555555;
-    font-family: 'Manrope', sans-serif;
+    color: var(--grey-color);
+    font-family: var(--manrope);
 }
 
 .hair-info {
@@ -22,8 +21,8 @@
 
 .hair-info>p {
     font-size: 18px;
-    color: #555555;
-    font-family: 'Manrope', sans-serif;
+    color: var(--grey-color);
+    font-family: var(--manrope);
 }
 
 .body-info {
@@ -32,14 +31,14 @@
 
 .body-info>p {
     font-size: 18px;
-    color: #555555;
-    font-family: 'Manrope', sans-serif;
+    color: var(--grey-color);
+    font-family: var(--manrope);
 }
 
 .spa-title,
 .hair-title,
 .body-title {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--playfair);
     font-size: 26px;
     padding-top: 5px;
 }
@@ -47,19 +46,27 @@
 .beauty-btn {
     border: 2px solid var(--main-color);
     font-size: 12px;
-    font-family: 'Manrope', sans-serif;
+    font-family: var(--manrope);
     padding: 12px;
-    color: #141414;
+    color: var(--black-color);
     background-color: var(--white-color);
 }
 
-/* .beauty-img{
-    width: 100%;
-} */
+@media only screen and (max-width: 1319px) {
+    .beauty {
+        justify-content: center;
+        gap: 99px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .beauty {
+        padding: 65px;
+    }
+}
 
 @media only screen and (max-width: 1023px) {
     .beauty {
-        padding: 65px;
         gap: 35px;
         justify-content: center;
         flex-wrap: wrap;
@@ -68,9 +75,29 @@
     .beauty-img {
         width: 100%;
     }
+}
 
-    /* 
-    .beauty-part{
+
+@media only screen and (max-width: 750px) {
+    .beauty {
+        padding: 45px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .beauty {
+        padding: 35px;
+    }
+
+    .hair-info {
+        width: 325px;
+    }
+
+    .hair-info>p {
+        width: 84%;
+    }
+
+    .beauty-part2 {
         width: 100%;
-    } */
+    }
 }

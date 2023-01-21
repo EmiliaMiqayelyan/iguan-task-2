@@ -1,6 +1,5 @@
 import "./lifestyle.css";
 import "../global.css";
-import bgimg from "./bg-img.svg";
 import image from "./image.svg";
 
 function Lifestyle() {
@@ -120,9 +119,6 @@ function Lifestyle() {
       </div>
       <div className="lifestyle-img">
         <div className="lifestyle-img-1">
-          <img src={bgimg} alt="" />
-        </div>
-        <div className="lifestyle-img-2">
           <img src={image} alt="" />
         </div>
       </div>

@@ -9,7 +9,7 @@
 
 .lifestyle-info-1>p {
     font-size: 15px;
-    font-family: 'Manrope', sans-serif;
+    font-family: var(--manrope);
     color: var(--main-color);
 }
 
@@ -19,10 +19,9 @@
 
 .lifestyle-info-2>p {
     font-size: 45px;
-    font-family: 'Playfair Display', serif;
-    color: #141414;
+    font-family: var(--playfair);
+    color: var(--black-color);
 }
-
 
 .lifestyle-info-3 {
     width: 590px;
@@ -30,8 +29,8 @@
 
 .lifestyle-info-3>p {
     font-size: 18px;
-    color: #555555;
-    font-family: 'Manrope', sans-serif;
+    color: var(--grey-color);
+    font-family: var(--manrope);
 }
 
 .beauty-parts {
@@ -53,36 +52,74 @@
     margin: 0px;
 }
 
-.lifestyle-img-2 {
-    margin-top: -655px;
-}
-
-.lifestyle-img-1>img,
-.lifestyle-img-2>img {
+.lifestyle-img-1>img {
     width: 100%;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1150px) {
     .lifestyle {
         padding: 65px;
     }
+}
 
-    /* .lifestyle-img-2 {
-        bottom: -1600px;
-        width: 100%;
+@media only screen and (max-width: 850px) {
+    .lifestyle-img-1 {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .beauty-parts {
+        gap: 50px;
     }
 
-    .lifestyle-img-1>img {
-        width: 100%;
+    .lifestyle {
+        padding: 45px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .beauty-parts {
+        gap: 17px;
     }
 
-    .lifestyle-img-2>img {
-        width: 33%;
-    } */
-
-    .lifestyle-img-2 {
-        margin-top: -348px;
+    .lifestyle-info-2>p {
+        width: 480px;
+        font-size: 30px;
     }
 
-   
+    .lifestyle-info-3>p {
+        width: 480px;
+    }
+}
+
+
+@media only screen and (max-width: 490px) {
+    .lifestyle {
+        padding: 35px;
+    }
+
+    .lifestyle-info {
+        width: 300px;
+    }
+
+    .lifestyle-info-2,
+    .lifestyle-info-3 {
+        width: 300px;
+    }
+
+    .lifestyle-info-2>p {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .lifestyle-info-3>p {
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .beauty-parts {
+        display: none
+    }
 }

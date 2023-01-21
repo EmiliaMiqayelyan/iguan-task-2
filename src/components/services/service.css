@@ -6,7 +6,7 @@
 .title-1 {
     font-size: 13px;
     color: var(--main-color);
-    font-family: 'Manrope', sans-serif;
+    font-family: var(--manrope);
     text-align: center;
 }
 
@@ -16,12 +16,12 @@
 }
 
 .title-2 {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--playfair);
     font-size: 45px;
-    color: #141414;
+    color: var(--black-color);
 }
 
-.service-part-1{
+.service-part-1 {
     display: flex;
     padding-top: 40px;
     gap: 100px;
@@ -33,10 +33,10 @@
 }
 
 .service-part-1>span,
-.service-part-2>span{
-    font-family: 'Manrope', sans-serif;
+.service-part-2>span {
+    font-family: var(--manrope);
     font-size: 16px;
-    color: #555555;
+    color: var(--grey-color);
 }
 
 .service-1 {
@@ -49,14 +49,14 @@
     width: 72%;
     height: auto;
     padding-top: 80px;
-} 
+}
 
 .hr-bold {
     margin: 0;
-    border-top: 3px solid #141414;
+    border-top: 3px solid var(--black-color);
 }
 
-hr{
+hr {
     border-top: 2px solid #134134;
 }
 
@@ -69,40 +69,74 @@ hr{
 .service-2-btn {
     font-size: 11px;
     padding: 10px;
-    background-color: white;
-    font-family: 'Manrope', sans-serif;
+    background-color: var(--white-color);
+    font-family: var(--manrope);
     border: 2px solid var(--main-color);
 }
 
-.menu>span{
+.menu>span {
     font-size: 20px;
-    font-family: 'Playfair Display', serif;
-    color: #141414;
+    font-family: var(--playfair);
+    color: var(--black-color);
 }
 
 .mask1-img,
-.mask2-img{
+.mask2-img {
     width: 100%;
 }
 
 .mask1-img>img,
-.mask2-img>img{
+.mask2-img>img {
     width: 100%;
 }
 
-@media only screen and (max-width: 1023px) {
-
-    .service{
+@media only screen and (max-width: 1150px) {
+    .service {
         padding: 65px;
     }
+}
 
+@media only screen and (max-width: 1023px) {
     .service-part-1,
-    .service-part-2{
+    .service-part-2 {
         gap: 62px;
     }
 
     .service-1>span,
-    .service-2>span{
+    .service-2>span {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .service-1 {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .service {
+        padding: 45px;
+    }
+
+    .mask1-img,
+    .mask2-img {
+        display: none;
+    }
+
+    .service-1,
+    .service-2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .service {
+        padding: 35px;
+    }
+
+    .header,
+    .title-2 {
+        font-size: 30px;
     }
 }

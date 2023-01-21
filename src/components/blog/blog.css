@@ -5,7 +5,7 @@
 }
 
 .title {
-    font-family: 'Manrope', sans-serif;
+    font-family: var(--manrope);
     font-size: 15px;
     color: var(--main-color);
     text-align: center;
@@ -14,47 +14,42 @@
 .story-part {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .story-info {
     width: 387px;
     padding: 40px;
-    background-color: #EBF3F5;
+    background-color: var(--bg-color);
 }
 
 .story-info>span {
     font-size: 18px;
-    font-family: 'Manrope', sans-serif;
-    color: #555555;
+    font-family: var(--manrope);
+    color: var(--grey-color);
 }
 
 .story-info>p {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--playfair);
     font-size: 22px;
     padding-top: 15px;
 }
 
 .story-header {
     font-size: 12px;
-    color: #5C8692;
+    color: var(--main-color);
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
 .story-btn {
-    border: 2px solid #5C8692;
+    border: 2px solid var(--main-color);
     font-size: 13px;
-    color: #141414;
-    background-color: white;
+    color: var(--black-color);
+    background-color: var(--white-color);
     padding: 12px;
-    font-family: 'Manrope', sans-serif;
-}
-
-.story-1>img,
-.story-2>img,
-.story-3>img{
-    width: 100%;
+    font-family: var(--manrope);
 }
 
 .blog-btn {
@@ -62,16 +57,45 @@
     padding-top: 20px;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1319px) {
     .story-part {
-        gap: 14px;
+        justify-content: center;
+        gap: 99px;
     }
+}
 
-    .blogs{
+@media only screen and (max-width: 1150px) {
+    .blogs {
         padding: 65px;
     }
+}
 
-    .story-info{
+@media only screen and (max-width: 1023px) {
+    .story-part {
+        gap: 35px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .blogs {
+        padding: 45px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .blogs {
+        padding: 35px;
+    }
+
+    .story-1>img,
+    .story-2>img,
+    .story-3>img {
+        width: 100%;
+    }
+
+    .story-info {
         width: 100%;
     }
 }

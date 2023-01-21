@@ -8,7 +8,7 @@
 }
 
 .content-info {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--playfair);
     padding-top: 60px;
 }
 
@@ -16,7 +16,7 @@
     width: 170px;
     height: 48px;
     background-color: var(--main-color);
-    font-family: 'Manrope', sans-serif;
+    font-family: var(--manrope);
     border: none;
     color: var(--white-color);
     font-size: 11px;
@@ -24,7 +24,7 @@
 }
 
 .content-info-part-1>span {
-    font-family: 'Manrope', sans-serif;
+    font-family: var(--manrope);
     font-size: 12px;
     color: var(--main-color);
     margin: 5px;
@@ -39,8 +39,8 @@
     width: 467px;
     font-size: 19px;
     font-weight: 400;
-    font-family: 'Manrope', sans-serif;
-    color: #555555;
+    font-family: var(--manrope);
+    color: var(--grey-color);
 }
 
 .content-img-div {
@@ -71,16 +71,52 @@
     background-color: var(--white-color);
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1150px) {
     .content {
         padding: 65px;
     }
+}
 
-    .content-img-div>img{
+@media only screen and (max-width: 1023px) {
+    .content-img-div>img {
         margin-left: 0px;
     }
 
-    .small-div{
+    .small-div {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .content-img-div {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .content {
+        padding: 45px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .content-info-part-2>p {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .content {
+        padding: 35px;
+    }
+
+    .content-info-part-2>p {
+        font-size: 35px;
+        width: 300px;
+    }
+
+    .content-info-part-3>p {
+        font-size: 15px;
+        width: 300px;
     }
 }

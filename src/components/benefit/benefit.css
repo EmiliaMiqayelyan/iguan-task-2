@@ -9,14 +9,14 @@
 .part-1 {
     width: 90px;
     height: 90px;
-    border: 5px solid #5C8692;
+    border: 5px solid var(--main-color);
     padding: 5px;
 }
 
 .part-2 {
     width: 70px;
     height: 70px;
-    background-color: #5C8692;
+    background-color: var(--main-color);
     padding: 20px;
 }
 
@@ -33,24 +33,53 @@
 
 .parts>p {
     padding-top: 10px;
-    color: #141414;
+    color: var(--black-color);
     font-size: 26px;
-    font-family: 'Playfair Display', serif;
+    font-family: var(--playfair);
 }
 
 .parts>span {
     font-size: 18px;
-    color: #555555;
+    color: var(--grey-color);
+}
+
+@media only screen and (max-width: 1150px) {
+    .benefits {
+        padding: 65px;
+    }
 }
 
 @media only screen and (max-width: 1023px) {
     .benefits {
         gap: 20px;
-        padding: 65px;
     }
 
     .benefit-part-1,
     .benefit-part-2 {
         gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .benefits {
+        padding: 45px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .benefits {
+        padding: 35px;
+    }
+
+    .parts>span {
+        display: none;
+    }
+
+    .parts>p {
+        font-size: 15px;
+    }
+
+    .header {
+        font-size: 25px;
     }
 }

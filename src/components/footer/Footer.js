@@ -4,7 +4,7 @@ import footerlogo from "./footer-logo.svg";
 
 function Footer() {
   return (
-    <div className="footer-iner">
+    <div className="footer-inner">
       <div className="footer">
         <div className="footer-container">
           <img src={footerlogo} alt="" />
@@ -97,49 +97,53 @@ function Footer() {
         </div>
         <hr />
         <div className="footer-info">
-          <div className="explore">
-            <p>Explore</p>
-            <span>Home</span>
-            <span>About Us</span>
-            <span>Services</span>
-            <span>Articles</span>
-            <span>Contact Us</span>
-          </div>
-          <div className="pages">
-            <p>Utility Pages</p>
-            <span>Style Guide</span>
-            <span>404 Not Found</span>
-            <span>Password Protected</span>
-            <span>Licenses</span>
-            <span>Changelog</span>
-          </div>
-          <div className="contact">
-            <p>Keep in Touch</p>
-            <div className="contact-part">
-              <span>Address :</span>
-              <div className="part">
-                <span>24A Kingston St, Los Vegas</span>
-                <span>NC 28202, USA.</span>
-              </div>
+          <div className="footer-info-part-1">
+            <div className="explore">
+              <p>Explore</p>
+              <span>Home</span>
+              <span>About Us</span>
+              <span>Services</span>
+              <span>Articles</span>
+              <span>Contact Us</span>
             </div>
-            <div className="contact-part">
-              <span>Mail :</span>
-              <div className="part">
-                <span className="margin-div">support@doctors.com</span>
-              </div>
-            </div>
-            <div className="contact-part">
-              <span>Phone :</span>
-              <div className="part">
-                <span className="margin-part">(+22) 123 - 4567 - 900</span>
-              </div>
+            <div className="pages">
+              <p>Utility Pages</p>
+              <span>Style Guide</span>
+              <span>404 Not Found</span>
+              <span>Password Protected</span>
+              <span>Licenses</span>
+              <span>Changelog</span>
             </div>
           </div>
-          <div className="hours">
-            <p>Working Hours</p>
-            <span>Mon to Fri: 7am - 6pm</span>
-            <span>Sat: 9am - 7pm</span>
-            <span>Sun: 9am - 6pm</span>
+          <div className="footer-info-part-2">
+            <div className="contact">
+              <p>Keep in Touch</p>
+              <div className="contact-part">
+                <span>Address :</span>
+                <div className="part">
+                  <span>24A Kingston St, Los Vegas</span>
+                  <span>NC 28202, USA.</span>
+                </div>
+              </div>
+              <div className="contact-part">
+                <span>Mail :</span>
+                <div className="part">
+                  <span className="margin-div">support@doctors.com</span>
+                </div>
+              </div>
+              <div className="contact-part">
+                <span>Phone :</span>
+                <div className="part">
+                  <span className="margin-part">(+22) 123 - 4567 - 900</span>
+                </div>
+              </div>
+            </div>
+            <div className="hours">
+              <p>Working Hours</p>
+              <span>Mon to Fri: 7am - 6pm</span>
+              <span>Sat: 9am - 7pm</span>
+              <span>Sun: 9am - 6pm</span>
+            </div>
           </div>
         </div>
       </div>
