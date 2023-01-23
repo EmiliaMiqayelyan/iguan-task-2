@@ -1,0 +1,16 @@
+.img-text-1>span,
+.img-text-2>span {
+    font-size: 14px;
+}
+
+.img-text-1>p,
+.img-text-2>p {
+    margin: 0;
+}
+
+.img-text-1,
+.img-text-2 {
+    height: auto;
+    background-color: var(--white-color);
+    padding: 10px;
+}

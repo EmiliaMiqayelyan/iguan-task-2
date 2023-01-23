@@ -65,6 +65,39 @@
     color: var(--white-color);
 }
 
+.menu-icon{
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.offcanvas{
+    width: 250px !important;
+}
+
+.home-icon,
+.about-icon,
+.pages-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--main-color) !important;
+}
+
+.sidebar{
+    padding: 20px;
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white-color);
+}
+
+.close-btn{
+    margin-left: 90%;
+}
+
 @media only screen and (max-width: 1023px) {
     .navbar-right-part {
         gap: 20px;
@@ -94,5 +127,17 @@
 @media only screen and (max-width: 490px) {
     .navbar-btn {
         display: none;
+    }
+
+    .navbar-right-part{
+        display: none;
+    }
+
+    .navbar-left-part{
+        justify-content: center;
+    }
+
+    .menu-icon{
+        display: block;
     }
 }

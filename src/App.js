@@ -10,6 +10,8 @@ import Benefits from './components/benefit/Benefits';
 import Discount from './components/discount/Discount';
 import Blog from './components/blog/Blog';
 import Footer from './components/footer/Footer';
+// import Slider from './components/slider/Slider';
+// import Carousel from './components/carousel/Carousel';
 
 function App() {
   return (
@@ -17,12 +19,14 @@ function App() {
         <Navbar />
         <Content />
         <Beauty />
+        {/* <Slider /> */}
         <Lifestyle />
         <Services />
         <Customers />
         <Benefits />
         <Discount />
         <Blog />
+        {/* <Carousel /> */}
         <Footer />
     </div>
   );

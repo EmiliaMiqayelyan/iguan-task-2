@@ -1,8 +1,14 @@
 import "./footer.css";
 import "../global.css";
+import { useState } from "react";
 import footerlogo from "./footer-logo.svg";
+import { MdContentCopy } from "react-icons/md";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function Footer() {
+  const [copied, setCopied] = useState(false);
+  const discount = "24A Kingston St, Los Vegas NC 28202, USA.";
+
   return (
     <div className="footer-inner">
       <div className="footer">
@@ -121,8 +127,26 @@ function Footer() {
               <div className="contact-part">
                 <span>Address :</span>
                 <div className="part">
-                  <span>24A Kingston St, Los Vegas</span>
-                  <span>NC 28202, USA.</span>
+                  <span style={{ width: "210px" }}>
+                    {discount}
+                    {copied ? (
+                      <span style={{ marginLeft: "20px" }}>Copied!</span>
+                    ) : (
+                      <CopyToClipboard
+                        text={discount}
+                        onCopy={() => {
+                          setCopied(true);
+                          setTimeout(() => {
+                            setCopied(false);
+                          }, 2000);
+                        }}
+                      >
+                        <MdContentCopy
+                          style={{ marginLeft: "20px", cursor: "pointer" }}
+                        />
+                      </CopyToClipboard>
+                    )}
+                  </span>
                 </div>
               </div>
               <div className="contact-part">
