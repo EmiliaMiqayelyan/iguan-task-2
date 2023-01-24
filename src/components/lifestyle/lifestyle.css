@@ -8,7 +8,7 @@
 }
 
 .lifestyle-info-1>p {
-    font-size: 15px;
+    font-size: var(--font-15);
     font-family: var(--manrope);
     color: var(--main-color);
 }
@@ -28,7 +28,7 @@
 }
 
 .lifestyle-info-3>p {
-    font-size: 18px;
+    font-size: var(--font-18);
     color: var(--grey-color);
     font-family: var(--manrope);
 }
@@ -41,14 +41,14 @@
 .beauty-part {
     width: 140px;
     height: 125px;
-    border: 1px solid black;
+    border: 1px solid var(--black-color);
     text-align: center;
     padding: 10px;
 }
 
 .beauty-part>p {
     width: 100%;
-    font-size: 15px;
+    font-size: var(--font-15);
     margin: 0px;
 }
 
@@ -115,7 +115,7 @@
     }
 
     .lifestyle-info-3>p {
-        font-size: 15px;
+        font-size: var(--font-15);
         width: 300px;
     }
 

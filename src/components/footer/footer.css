@@ -79,7 +79,7 @@
     background-color: #111E22;
     color: var(--white-color);
     font-family: var(--manrope);
-    font-size: 15px;
+    font-size: var(--font-15);
     padding-top: 20px;
 }
 
@@ -88,6 +88,19 @@
     display: flex;
     width: 100%;
     gap: 185px;
+}
+
+.copy-icon{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.copy-span{
+    margin-left: 20px;
+}
+
+.part-span{
+    width: 210px;
 }
 
 @media only screen and (max-width: 1150px) {

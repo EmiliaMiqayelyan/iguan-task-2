@@ -2,13 +2,11 @@ import "./navbar.css";
 import "../global.css";
 import logo from "./logo.svg"
 import Sidebar from "./Sidebar";
-import Bar from "./Bar";
 
 function Navbar() {
   return (
     <div className="navbar-inner">
-      {/* <Sidebar /> */}
-      <Bar />
+      <Sidebar />
       <div className="navbar-left-part">
         <div className="navbar-left-part-1">
           <img src={logo} alt="Logo" />

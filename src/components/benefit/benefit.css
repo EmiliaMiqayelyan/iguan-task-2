@@ -39,7 +39,7 @@
 }
 
 .parts>span {
-    font-size: 18px;
+    font-size: var(--font-18);
     color: var(--grey-color);
 }
 
@@ -76,7 +76,7 @@
     }
 
     .parts>p {
-        font-size: 15px;
+        font-size: var(--font-15);
     }
 
     .header {

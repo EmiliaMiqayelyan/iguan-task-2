@@ -7,7 +7,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function Footer() {
   const [copied, setCopied] = useState(false);
-  const discount = "24A Kingston St, Los Vegas NC 28202, USA.";
+  const copy = "24A Kingston St, Los Vegas NC 28202, USA.";
 
   return (
     <div className="footer-inner">
@@ -127,13 +127,13 @@ function Footer() {
               <div className="contact-part">
                 <span>Address :</span>
                 <div className="part">
-                  <span style={{ width: "210px" }}>
-                    {discount}
+                  <span className="part-span">
+                    {copy}
                     {copied ? (
-                      <span style={{ marginLeft: "20px" }}>Copied!</span>
+                      <span className="copy-span">Copied!</span>
                     ) : (
                       <CopyToClipboard
-                        text={discount}
+                        text={copy}
                         onCopy={() => {
                           setCopied(true);
                           setTimeout(() => {
@@ -141,9 +141,7 @@ function Footer() {
                           }, 2000);
                         }}
                       >
-                        <MdContentCopy
-                          style={{ marginLeft: "20px", cursor: "pointer" }}
-                        />
+                        <MdContentCopy className="copy-icon" />
                       </CopyToClipboard>
                     )}
                   </span>

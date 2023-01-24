@@ -6,7 +6,7 @@
 
 .title {
     font-family: var(--manrope);
-    font-size: 15px;
+    font-size: var(--font-15);
     color: var(--main-color);
     text-align: center;
 }
@@ -24,7 +24,7 @@
 }
 
 .story-info>span {
-    font-size: 18px;
+    font-size: var(--font-18);
     font-family: var(--manrope);
     color: var(--grey-color);
 }
@@ -36,7 +36,7 @@
 }
 
 .story-header {
-    font-size: 12px;
+    font-size: var(--font-12);
     color: var(--main-color);
     display: flex;
     align-items: center;

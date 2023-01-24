@@ -26,7 +26,7 @@
 
 .beauty-btn {
     border: 2px solid var(--black-color);
-    font-size: 12px;
+    font-size: var(--font-12);
     font-family: var(--manrope);
     padding: 8px;
     color: var(--black-color);

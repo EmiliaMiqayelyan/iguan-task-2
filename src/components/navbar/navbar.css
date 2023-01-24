@@ -98,6 +98,15 @@
     margin-left: 90%;
 }
 
+.sidebar-parts{
+    padding-top: 20px;
+}
+
+.sidebar-parts>span{
+    margin-left: 10px;
+    font-size: var(--font-12);
+}
+
 @media only screen and (max-width: 1023px) {
     .navbar-right-part {
         gap: 20px;

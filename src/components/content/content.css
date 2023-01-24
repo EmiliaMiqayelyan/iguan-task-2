@@ -25,7 +25,7 @@
 
 .content-info-part-1>span {
     font-family: var(--manrope);
-    font-size: 12px;
+    font-size: var(--font-12);
     color: var(--main-color);
     margin: 5px;
 }
@@ -116,7 +116,7 @@
     }
 
     .content-info-part-3>p {
-        font-size: 15px;
+        font-size: var(--font-15);
         width: 300px;
     }
 }
